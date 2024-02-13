@@ -56,9 +56,9 @@ Agora é propriamente a etapa de configuração do pyenv:
 
 ---
 
-Agora vamos instalar o pyenv:
+Agora vamos instalar o poetry:
 
-1. Você deve rodar o comando ` pyenv local X.X `
+1. Você deve rodar o comando ` pip install poetry `
 2. Para iniciar um projeto utilizando o poetry você pode usar o comando ` poetry new projeto `, sendo projeto o nome que você deseja colocar
 3. Você pode acessar a pasta do seu projeto ` cd projeto `, para após rodar o comando ` code . ` assim você vai instalar um pacote que fara a conexão do *Visual Studio Code* com seu WSL, para isso você deve ter o *Visual Studio Code* instalado no seu Windows, como também a extenção *WSL*.
 4. Posteriormente você pode utilizar o comando ` poetry config virtualenvs.in-project true `, você está dizendo para o poetry que a pasta do ambiente virtual ficará dentro da pasta do projeto.
